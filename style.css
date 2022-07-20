@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(15, 9, 9);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    margin: 40px;
+}
+button, input[type="button"]{
+    margin: 30px;
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+#container{
+    border:1px solid black;
+    min-height: 70px;
+    width: 90vw;
+    border-bottom: 3px double whitesmoke;
+    border-right: 3px double whitesmoke;
+    border-left: 3px double whitesmoke;
+    background-color: rgb(234, 250, 248);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    border-radius: 10px;
+}
+
+.ball-in{
+    border: 1px solid black;
+    height: 60px;
+    width:60px;
+    border-radius: 50%;
+    margin: 2px 1px;
+}
+
+@media only screen and (max-width:600px){
+    body{
+        text-align: center;
+    }
+}
